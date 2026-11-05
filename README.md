@@ -203,9 +203,29 @@ The API validates sorting columns, sorting order, pagination values, book IDs an
 
 ![Invalid Price Range](screenshots/filter-invalid-price-range.png)
 
-## Live Deployment
+## 🚀 Live Deployment
 
-**Note:** Add your actual deployment URL here after confirming that your backend is deployed and accessible.
+The Book Management REST API is deployed on Render and available online.
+
+**Live API URL:**  
+https://backend-lab-3-book-api.onrender.com/
+
+### API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/` | Check API server status |
+| GET | `/books` | Retrieve all books |
+| GET | `/books/:bookId` | Retrieve a specific book by ID |
+
+### Live API Links
+
+- **Home API:** https://backend-lab-3-book-api.onrender.com/
+- **Get All Books:** https://backend-lab-3-book-api.onrender.com/books
+- **Get Book by ID:** https://backend-lab-3-book-api.onrender.com/books/1
+
+**Deployment Platform:** Render  
+
 
 ## Conclusion
 
